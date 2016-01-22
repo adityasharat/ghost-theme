@@ -14,7 +14,7 @@
             {{/if}}
 
             <h1 class="post-title">{{title}}</h1>
-            
+
             <section class="post-meta">
                 <span class="post-time">
                     <i class='fa fa-calendar'></i>
@@ -88,6 +88,21 @@
                     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
                     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
                 })();
+                // Load Disqus only after user has scrolled to bottom of the page
+                window.onscroll = function( e ) {
+                  if ( ( window.innerHeight + window.scrollY ) >= document.body.offsetHeight ) {
+                    //hit bottom of page
+                    if ( disqusLoaded == false ) {
+                      loadDisqus()
+                    };
+                  }
+                };
+
+                window.onclick = function( e ) {
+                  if ( disqusLoaded == false ) {
+                    loadDisqus()
+                  }
+                };
             </script>
             <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>

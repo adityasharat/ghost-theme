@@ -45,7 +45,7 @@ img,legend{border:0}legend,td,th{padding:0}html{font-family:sans-serif;-ms-text-
 
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "Open Sans", sans-serif;
+    font-family: "casper-icons", 'Droid Sans', sans-serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -172,7 +172,7 @@ a {
 }
 
 a:hover {
-    color: #424242;
+    color: #757575;
 }
 
 h1 a, h2 a, h3 a,
@@ -221,7 +221,7 @@ blockquote {
     box-sizing: border-box;
     margin: 1.6em 0 1.6em -2.2em;
     padding: 0 0 0 1.6em;
-    border-left: #616161 0.4em solid;
+    border-left: #424242 0.4em solid;
 }
 
 blockquote p {
@@ -233,7 +233,7 @@ blockquote small {
     display: inline-block;
     margin: 0.8em 0 0.8em 1.5em;
     font-size:0.9em;
-    color: #616161;
+    color: #424242;
 }
 
 blockquote small:before { content: '\2014 \00A0'; }
@@ -245,7 +245,7 @@ blockquote cite {
 blockquote cite a { font-weight: normal; }
 
 mark {
-    background-color: #fdffb6;
+    background-color: #212121;
 }
 
 code, tt {
@@ -253,7 +253,7 @@ code, tt {
     font-family: 'Droid Sans Mono', ;
     font-size: 0.85em;
     white-space: pre-wrap;
-    background: #212121;
+    background: #424242;
     color: #f5f5f5;
     border-radius: 0.3em;
 }
@@ -269,7 +269,7 @@ pre {
     white-space: pre;
     overflow: auto;
     background: #212121;
-    color: #455A64;
+    color: #f5f5f5;
     border-radius: 0.3em;
 }
 
@@ -286,15 +286,15 @@ kbd {
     margin-bottom: 0.4em;
     padding: 1px 8px;
     border: #616161 1px solid;
-    color: #666;
-    text-shadow: #fff 0 1px 0;
+    color: #f5f5f5;
+    text-shadow: #EEEEEE 0 1px 0;
     font-size: 0.9em;
     font-weight: bold;
-    background: #9a9a9a;
+    background: #212121;
     border-radius: 4px;
     box-shadow:
         0 1px 0 rgba(0, 0, 0, 0.2),
-        0 1px 0 0 #9a9a9a inset;
+        0 1px 0 0 #616161 inset;
 }
 
 table {
@@ -326,13 +326,13 @@ table thead:first-child tr:first-child td {
     border-top: 0;
 }
 
-table tbody + tbody { border-top: 2px solid #323232; }
+table tbody + tbody { border-top: 2px solid #616161; }
 
-table table table { background-color: #9a9a9a; }
+table table table { background-color: #212121; }
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-    background-color: #9a9a9a;
+    background-color: #212121;
 }
 
 table.plain tbody > tr:nth-child(odd) > td,
@@ -402,7 +402,7 @@ margin on the iframe, cause it breaks stuff. */
     width: auto;
     margin: 0 auto 10px auto;
     line-height: 0;
-    border:3px solid #fff;
+    border:3px solid #616161;
     border-radius:50%;
     border-radius:50%;
     max-height:100px;
@@ -444,7 +444,7 @@ margin on the iframe, cause it breaks stuff. */
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
     margin: 0 0 10px 0;
-    color: #d2d2d2;
+    color: #f5f5f5;
     font-weight: bold;
     font-family: 'Droid Sans', sans-serif;
     text-shadow: 0 1px 6px rgba(0,0,0,0.1);
@@ -452,12 +452,12 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .blog-title a {
-    color: #d2d2d2;
+    color: #f5f5f5;
     text-decoration: none;
 }
 
 .blog-description {
-    color: #BBC4C9;
+    color: #EEEEEE;
     font-size: 1.8rem;
     line-height: 1.3em;
     font-weight: 300;
@@ -470,7 +470,7 @@ margin on the iframe, cause it breaks stuff. */
 .post {
     position: relative;
     max-width: inherit;
-    border-bottom: #EBF2F6 1px solid;
+    border-bottom: #616161 1px solid;
     word-wrap: break-word;
     margin-bottom: 2rem;
 }
@@ -482,19 +482,19 @@ margin on the iframe, cause it breaks stuff. */
     content: "";
     width: 7px;
     height: 7px;
-    border: #E7EEF2 1px solid;
+    border: #616161 1px solid;
     position: absolute;
     bottom: -5px;
     left: 50%;
     margin-left: -5px;
-    background: #fff;
+    background: #212121;
     border-radius: 100%;
-    box-shadow: #fff 0 0 0 5px;
+    box-shadow: #616161 0 0 0 5px;
 }
 
 .post-title {
     margin:0;
-    color: #FAFAFA;
+    color: #f5f5f5;
 }
 
 .post-title a {
@@ -641,7 +641,7 @@ main
 
 #results > p
 {
-    color: #BBB;
+    color: #f5f5f5;
     font-size: 1.4rem;
     margin: 0;
 }
@@ -649,7 +649,7 @@ main
 #results > a
 {
     display: block;
-    background-color: #9a9a9a;
+    background-color: #00000;
     border-radius: 10px;
     text-decoration: none;
     padding: 1rem 2.5rem;
@@ -669,7 +669,7 @@ main
 {
     font-size: 1.4rem;
     font-weight: 400;
-    color: #BBB;
+    color: #f5f5f5;
 }
 
 #sidebar-links
@@ -679,7 +679,7 @@ main
 
 #sidebar-links ul
 {
-    color: #BBC4C9;
+    color: #f5f5f5;
     font-size: 13px;
     list-style: none inside none;
     padding: 0;
@@ -693,13 +693,13 @@ main
 
 #sidebar-links a
 {
-    color: #BBC4C9;
+    color: #f5f5f5;
     text-decoration: none;
 }
 
 #sidebar-links a:hover
 {
-    color: white;
+    color: #757575;
 }
 
 .post-indexfooter
@@ -743,7 +743,7 @@ main
     max-width: inherit;
     margin: 1rem 0;
     padding: 0 0 30px 0;
-    border-bottom: 1px solid #9a9a9a;
+    border-bottom: 1px solid #616161;
 }
 
 .tag-archive-header-name {
@@ -834,8 +834,8 @@ main
     position: relative;
     margin: 4rem 0 4rem 0;
     padding: 4rem 0 0 0;
-    border-top: #9a9a9a 1px solid;
-    border-bottom: #9a9a9a 1px solid;
+    border-top: #616161 1px solid;
+    border-bottom: #616161 1px solid;
 }
 
 .post-footer h4 {
@@ -864,7 +864,7 @@ main
     color: #f5f5f5;
 }
 .author-meta a:hover {
-    color: #57A3E8;
+    color: #757575;
 }
 
 /* Create some space to the right for the share links */
@@ -888,7 +888,7 @@ main
     font-size: 3rem;
     display: inline-block;
     margin: 1rem 1.6rem 1.6rem 0;
-    color: #BBC7CC;
+    color: #f5f5f5;
     text-decoration: none;
 }
 
@@ -901,7 +901,7 @@ main
 }
 
 .post-footer .share a:hover {
-    color: #50585D;
+    color: #757575;
 }
 .post-footer .share a.fa-twitter-square:hover {
     color: #55acee !important;
@@ -973,7 +973,7 @@ main
 
 .author-profile {
     padding: 0 0 30px 0;
-    border-bottom: #EBF2F6 1px solid;
+    border-bottom: #616161 1px solid;
     text-align: center;
     margin-bottom: 2rem;
     max-width: inherit;
@@ -1002,9 +1002,9 @@ main
     border-radius: 100%;
     overflow: hidden;
     padding: 6px;
-    background: #fff;
+    background: #212121;
     z-index: 2;
-    box-shadow: #E7EEF2 0 0 0 1px;
+    box-shadow: #616161 0 0 0 1px;
 }
 
 .author-image .img {
@@ -1043,7 +1043,7 @@ main
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 200;
-    color: #50585D;
+    color: #f5f5f5;
     letter-spacing: 0;
     text-indent: 0;
 }
@@ -1054,7 +1054,7 @@ main
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: 'Droid Sans', sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1088,8 +1088,8 @@ main
     -ms-flex-align: stretch;
     align-items: stretch;
     margin-top: 2rem;
-    border-top: #E7EEF2 1px solid;
-    border-bottom: #E7EEF2 1px solid;
+    border-top: #616161 1px solid;
+    border-bottom: #616161 1px solid;
 }
 
 .read-next-story {
@@ -1105,8 +1105,8 @@ main
     text-decoration: none;
     position: relative;
     text-align: center;
-    color: #fff;
-    background: #424242 no-repeat center center;
+    color: #f5f5f5;
+    background: #212121 no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -1115,8 +1115,8 @@ main
     transition: all 0.2s ease;
 }
 .read-next-story:hover .post:before {
-    color: #424242;
-    background: #fff;
+    color: #212121;
+    background: #f5f5f5;
     transition: all 0.2s ease;
 }
 
@@ -1152,9 +1152,9 @@ main
     padding: 4px 10px 5px;
     text-transform: uppercase;
     font-size: 1.1rem;
-    font-family: "Open Sans", sans-serif;
-    color: #9a9a9a;
-    border: #E7EEF2 1px solid;
+    font-family: 'Droid Sans', sans-serif;
+    color: #f5f5f5;
+    border: #616161 1px solid;
     border-radius: 4px;
     transition: all 0.5s ease;
 }
@@ -1164,7 +1164,7 @@ main
 
 .read-next-story h2 {
     margin-top: 1rem;
-    color: #9a9a9a;
+    color: #f5f5f5;
 }
 
 .read-next-story p {
@@ -1258,7 +1258,7 @@ main
     position: absolute;
     display: inline-block;
     padding: 0 15px;
-    border: #EBF2F6 2px solid;
+    border: #616161 2px solid;
     text-decoration: none;
     border-radius: 30px;
     transition: border 0.3s ease;
@@ -1279,7 +1279,7 @@ main
 
 .older-posts:hover,
 .newer-posts:hover {
-    border-color: #f5f5f5;
+    border-color: #616161;
 }
 
 
@@ -1294,15 +1294,15 @@ main
     font-family: 'Droid Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
-    color: #BBC4C9;
+    color: #f5f5f5;
 }
 
 .site-footer a {
-    color: #BBC4C9;
+    color: #f5f5f5;
 }
 
 .site-footer a:hover {
-    color: white;
+    color: #757575;
 }
 
 .poweredby .icon-ghost:before {
@@ -1323,17 +1323,17 @@ main
     top: -14px;
     left: 50%;
     margin-left: -15px;
-    border: #EBF2F6 1px solid;
+    border: #616161 1px solid;
     text-align: center;
     line-height: 2.4rem;
     border-radius: 50px;
-    background: #9a9a9a;
+    background: #212121;
     transition: box-shadow 0.5s;
 }
 
 /* The RSS icon, inserted via icon font */
 .subscribe:before {
-    color: #D2DEE3;
+    color: #f5f5f5;
     font-size: 10px;
     position: absolute;
     top: 9px;
@@ -1349,7 +1349,7 @@ main
 }
 
 .subscribe:hover:before {
-    color: #50585D;
+    color: #f5f5f5;
 }
 
 /* CSS tooltip saying "Subscribe!" - initially hidden */
@@ -1360,11 +1360,11 @@ main
     position:absolute;
     top: -23px;
     left: -21px;
-    color: rgba(255,255,255,0.9);
+    color: #f5f5f5;
     font-size: 1.1rem;
     line-height: 1em;
     text-align: center;
-    background: #50585D;
+    background: #212121;
     border-radius:20px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.1);
     transition: opacity 0.3s ease, top 0.3s ease;
@@ -1375,7 +1375,7 @@ main
     content:"";
     border-width:5px 5px 0 5px;
     border-style:solid;
-    border-color: #50585D transparent;
+    border-color: #616161 transparent;
     display:block;
     position:absolute;
     bottom:-4px;
@@ -1541,7 +1541,7 @@ main
     .post-footer .author {
         margin: 0 0 2rem 0;
         padding: 0 0 1.6rem 0;
-        border-bottom: #9a9a9a 1px dashed;
+        border-bottom: #616161 1px dashed;
     }
 
     .post-footer .share {
