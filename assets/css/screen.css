@@ -256,6 +256,9 @@ code, tt {
     background: #424242;
     color: #f5f5f5;
     border-radius: 0.3em;
+    -webkit-font-feature-settings: "liga" 0;
+    -moz-font-feature-settings: "liga" 0;
+    font-feature-settings: "liga" 0;
 }
 
 pre {
@@ -625,9 +628,9 @@ main
 }
 
 #search:before {
-    color: #f5f5f5;
+    color: #616161;
     font-family: 'FontAwesome';
-    content: "f002"; /* fa-search */
+    content: "\f002"; /* fa-search */
     font-size: 14px;
     margin-top: 1px;
     right: 10px;
@@ -1046,7 +1049,9 @@ main
     color: #f5f5f5;
     letter-spacing: 0;
     text-indent: 0;
-}
+}    -webkit-font-feature-settings: "liga" 0;
+    -moz-font-feature-settings: "liga" 0;
+    font-feature-settings: "liga" 0;
 
 .author-meta {
     margin: 1.6rem 0;
