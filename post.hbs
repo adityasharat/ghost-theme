@@ -77,35 +77,9 @@
         </footer>
 
         <section class="post-comments">
-            <div id="disqus_thread"></div>
-            <script type="text/javascript">
-                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                {{> disqus}}
-
-                /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-                // Load Disqus only after user has scrolled to bottom of the page
-                window.onscroll = function( e ) {
-                  if ( ( window.innerHeight + window.scrollY ) >= document.body.offsetHeight ) {
-                    //hit bottom of page
-                    if ( disqusLoaded == false ) {
-                      loadDisqus()
-                    };
-                  }
-                };
-
-                window.onclick = function( e ) {
-                  if ( disqusLoaded == false ) {
-                    loadDisqus()
-                  }
-                };
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          <div class="g-comments" data-href="{{@blog.url}}{{url}}" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ Comments ...</div>
+          <script async type="text/javascript" src="//apis.google.com/js/plusone.js?callback=gpcb"></script>
+          <noscript>Please enable JavaScript to view the <a href="https://plus.google.com/">comments powered by Google+.</a></noscript>
         </section>
 
         {{!--
