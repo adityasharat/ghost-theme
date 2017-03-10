@@ -498,6 +498,7 @@ margin on the iframe, cause it breaks stuff. */
 .post-title {
     margin:0;
     color: #f5f5f5;
+    margin-bottom: 1rem;
 }
 
 .post-title a {
@@ -521,6 +522,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 14px;
     line-height: 1.4em;
     color: #f5f5f5;
+    width: 100%;
 }
 
 .post-meta a {
@@ -721,6 +723,10 @@ main
 {
     font-weight: bold;
     text-decoration: none;
+}
+
+.post-meta .post-time {
+    float: right;
 }
 
 .post-time .fulldate
