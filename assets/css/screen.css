@@ -475,7 +475,7 @@ margin on the iframe, cause it breaks stuff. */
     max-width: inherit;
     border-bottom: #616161 1px solid;
     word-wrap: break-word;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -606,7 +606,7 @@ main
 
 .main-inner
 {
-    max-width: 800px;
+    max-width: 900px;
 }
 
 #search
@@ -1590,6 +1590,10 @@ main
     .blog-description {
         font-size: 1.4rem;
     }
+}
+
+.ml-8 {
+    margin-left: 8px;
 }
 
 

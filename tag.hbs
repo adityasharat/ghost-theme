@@ -36,11 +36,11 @@
                 <time datetime="{{date format="YYYY-MM-DD"}}" class="timeago">{{date timeago="true"}}</time>
                 <time datetime="{{date format="YYYY-MM-DD"}}" class="fulldate">{{date format="MMMM Do, YYYY"}}</time>
             </span>
-            {{tags prefix="<br><i class='fa fa-tag'></i> " separator=" · "}}
+            {{tags prefix="<i class='ml-8 fa fa-tag'></i> " separator=" · "}}
         </section>
     </header>
-    <section class="post-content">
-        {{content}}
+    <section>
+        {{excerpt words="40"}}...<a class="read-more" href="{{url}}">read more &raquo;</a>
     </section>
     <footer class="post-indexfooter">
         <i class="fa fa-comment-o"></i> <a href="{{url}}#disqus_thread">Comments</a>
