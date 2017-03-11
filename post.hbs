@@ -16,12 +16,12 @@
             <h1 class="post-title">{{title}}</h1>
 
             <section class="post-meta">
+                {{tags prefix="<br><i class='ml-8 fa fa-tag'></i> " separator=" · "}}
                 <span class="post-time">
                     <i class='fa fa-calendar'></i>
                     <time datetime="{{date format="YYYY-MM-DD"}}" class="timeago">{{date timeago="true"}}</time>
                     <time datetime="{{date format="YYYY-MM-DD"}}" class="fulldate">{{date format="MMMM Do, YYYY"}}</time>
                 </span>
-                {{tags prefix="<br><i class='fa fa-tag'></i> " separator=" · "}}
             </section>
         </header>
 
