@@ -5,20 +5,16 @@ A fork of [StayPuft](https://github.com/dlecina/StayPuft), which is a fork of Ca
 ## Features
 
 - Responsive design.
-- ~Post comments using [Disqus](http://disqus.com/).~
+- Post comments using [Disqus](http://disqus.com/).
 - Post comments using Google+ Comments
 - In-site search using [GhostHunter](https://github.com/i11ume/ghostHunter).
-- Support for [Font Awesome](https://github.com/FortAwesome/Font-Awesome)4.5.
+- Support for [Font Awesome](https://github.com/FortAwesome/Font-Awesome) 4.5.
 - Basic support for [slidr.js](https://github.com/bchanx/slidr).
 - Syntax highlighting using [Prism](https://github.com/LeaVerou/prism/) (Customized for this theme).
 
 ## Demo
 
-This theme is being used in my [blog](http://jsvoid.com).
-
-## Discussion
-
-- The appropriate place to report problems is the [Issues section](https://github.com/adityasharat/ghost-theme/issues).
+This theme is being used in my [blog](http://jsvoid.com)]
 
 ## Installation
 
