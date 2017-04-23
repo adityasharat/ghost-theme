@@ -30,6 +30,11 @@ sudo git clone https://github.com/adityasharat/ghost-theme
 - Restart Ghost.
 - Select the theme in your Settings page.
 
+## TODO
+
+* Use slider
+* Use disqus
+
 ## Copyright & License
 
 Original Copyright (c) 2013-2015 Ghost Foundation - Released under The MIT License.<br>Modifications Copyright (c) 2027 Aditya Sharat - Released under The MIT License. Modifications to Modifications Copyright (c) 2016 Levi Smith - Released under The MIT License.
